@@ -2,6 +2,7 @@ import './style.css'
 import { fetchEmployees } from '../../services/api'
 import { useState, useEffect } from 'react';
 import EmployeeTable from '../../components/EmployeeTable';
+import Header from '../../components/Header';
 
 function Home() {
 
@@ -22,6 +23,7 @@ function Home() {
   return (
 
     <div>
+      <Header />
       <EmployeeTable employees={employees} loading={loading} />
     </div>
 
