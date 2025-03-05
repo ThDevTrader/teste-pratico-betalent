@@ -48,3 +48,7 @@
     text-align: left;
     border-bottom: 1px solid #ddd;
 }
+
+.employee-table tbody tr {
+    background-color: #FFFFFF;
+}
