@@ -45,6 +45,7 @@ function Home() {
   return (
     <div>
       <Header />
+      <h1 className="home-title">Funcionários</h1>
       <SearchBar searchTerm={searchTerm} onSearchChange={handleSearchChange} />
       <EmployeeTable employees={filteredEmployees} loading={loading} />
     </div>

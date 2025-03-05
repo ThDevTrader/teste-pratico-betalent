@@ -8,7 +8,7 @@ const EmployeeTable = ({ employees, loading }) => {
     }
 
     if (employees.length === 0) {
-        return <div>Nenhum colaborador encontrado</div>;
+        return <div className="no-employees-found" >Nenhum colaborador encontrado</div>;
     }
 
     return (
