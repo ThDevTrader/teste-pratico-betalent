@@ -1,3 +1,4 @@
+import { formatDate } from '../../utils/formatDate';
 import './style.css'
 
 const EmployeeTable = ({ employees, loading }) => {
@@ -33,7 +34,7 @@ const EmployeeTable = ({ employees, loading }) => {
                             </td>
                             <td>{employee.name}</td>
                             <td>{employee.job}</td>
-                            <td>{employee.admission_date}</td>
+                            <td>{formatDate(employee.admission_date)}</td>
                             <td>{employee.phone}</td>
                         </tr>
                     ))}
