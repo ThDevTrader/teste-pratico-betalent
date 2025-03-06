@@ -52,3 +52,87 @@
 .employee-table tbody tr {
     background-color: #FFFFFF;
 }
+
+@media (max-width: 656px) {
+
+    .employee-table th,
+    .employee-table td {
+        padding: 8px 10px;
+    }
+}
+
+@media (max-width: 606px) {
+
+    .employee-table th,
+    .employee-table td {
+        padding: 8px 8px;
+    }
+}
+
+@media (max-width: 586px) {
+
+    .employee-table th,
+    .employee-table td {
+        padding: 6px 6px;
+    }
+}
+
+@media (max-width: 566px) {
+
+    .employee-table {
+        font-size: 14px;
+    }
+
+    .employee-table th,
+    .employee-table td {
+        padding: 6px 6px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .employee-table {
+        font-size: 12px;
+    }
+
+    .employee-table th,
+    .employee-table td {
+        padding: 6px 6px;
+    }
+}
+
+@media (max-width: 510px) {
+
+    .employee-table {
+        font-size: 12px;
+    }
+
+    .employee-table th,
+    .employee-table td {
+        padding: 6px 8px;
+    }
+}
+
+@media (max-width: 498px) {
+
+    .employee-table {
+        font-size: 12px;
+    }
+
+    .employee-table th,
+    .employee-table td {
+        padding: 6px 10px;
+    }
+}
+
+@media (max-width: 376px) {
+
+    .employee-table {
+        font-size: 12px;
+    }
+
+    .employee-table th,
+    .employee-table td {
+        padding: 6px 10px;
+    }
+}
