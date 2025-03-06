@@ -1,12 +1,54 @@
-# React + Vite
+# Teste Prático Front End - BeTalent
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta é uma aplicação React que exibe tabela com dados de colaboradores, permitindo pesquisa por nome, cargo ou telefone.
 
-Currently, two official plugins are available:
+## 📌 Requisitos
+✅ Formatação de datas e números de telefone para os formatos brasileiros  
+✅ Consumo de API simulada com json-server  
+✅ Uso do Yarn como gerenciador de pacotes  
+✅ Seguir guia de estilo [Figma]()  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Funcionalidades
+✅ No carregamento da página listar colaboradores com respectivas imagens, nomes, cargos, datas de admissão e números de telefone  
+✅ Poder realizar filtragem através de busca por nome, cargo e telefone  
+✅ Responsividade para telas mobile  
+✅   
 
-## Expanding the ESLint configuration
+## 🖥️ Tecnologias Utilizadas
+- React.js
+- Yarn
+- json-server (API simulada)
+- Axios
+- [date-fns]()
+- [libphonenumber-js]()
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Instalação e Configuração
+
+### 1️. Clone o repositório
+```bash
+git clone https://github.com/...EDITAAAAAAAAAAAAAAAAARRRRRRRRRRR
+```
+
+### 2. Entre na pasta do arqvuio
+```bash
+cd teste-pratico-betalent VVVVVVVVVVEEEEEEEEERRRRRRRR
+```
+
+### 3. Instale as dependências
+```bash
+yarn install CONFIRRRRRRRRMAAAAAAAAARRRRRRR
+```
+
+## 🖥️ Execução do Projeto
+
+### 1️. Iniciar o json-server
+```bash
+yarn server
+```
+
+### 2️. Rodar a aplicação
+```bash
+yarn start
+```
+A aplicação estará rodando em `http://localhost:EDITAAAAAAAAAAAAAAAAAAARRRRRRRRRRRR`.
+
