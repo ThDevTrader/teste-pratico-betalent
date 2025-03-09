@@ -91,6 +91,12 @@ Com as opções português-Br, inglês e espanhol
 
 ![image](https://github.com/user-attachments/assets/7d94c7e7-b68c-4cfd-81fe-9b578013a2f2)  
 
+### 📌 Informações e Funcionalidades
+✅ Uso das bibliotecas [i18next](https://www.npmjs.com/package/i18next), [react-i18next](https://www.npmjs.com/package/react-i18next) e [i18next-browser-languagedetector](https://www.npmjs.com/package/i18next-browser-languagedetector) para gerenciar as traduções  
+✅ Identifica o idioma padrão do browser e inicia a aplicação seguindo esta configuração  
+✅ É possível trocar entre idiomas nas bandeiras posicionadas à direita do header  
+✅ Além das strings visíveis os **alt** da aplicação também são traduzidos, para manter a acessibilidade   
+
 ## 🖥️ Para acessar esta versão
 
 ### 1. Altere para a branch develop 
@@ -100,11 +106,6 @@ git checkout develop
 ```
 
 ### 2. E veja as alteração no browser  
-Se as alterações não refletirem na tala será necessário atualizar a página do navegador  
-Recomendado fazer **Ctrl + F5**
+Se as alterações não refletirem na tela será necessário atualizar a página do navegador  
+Recomendado dar hard refresh: **Ctrl + F5**  
 
-### 📌 Informações e Funcionalidades
-✅ Uso da biblioteca **i18next** para gerenciar as traduções de forma dinâmica  
-✅ Identifica o idioma do browser e inicia a aplicação seguindo esta configuração  
-✅ É possível trocar entre idiomas nas bandeiras posicionadas à esquerda do header  
-✅ Além das strings visíveis os **alt** da aplicação também são traduzidos, para manter a acessibilidade   
