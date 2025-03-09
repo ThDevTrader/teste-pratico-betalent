@@ -1,0 +1,24 @@
+{
+    "appTitle": "Funcionários",
+    "searchPlaceholder": "Pesquisar",
+    "loading": "Carregando...",
+    "noEmployeesFound": "Nenhum colaborador encontrado",
+    "altHeaderLogo": "Logotipo da BeTalent",
+    "altEmployeeImage": "Foto do colaborador",
+    "altBrazilFlag": "Bandeira do Brasil - seletor de idioma",
+    "altUSAFlag": "Bandeira dos EUA - seletor de idioma",
+    "altSpainFlag": "Bandeira da Espanha - seletor de idioma",
+    "altMagnifyingGlassIcon": "Ícone de lupa",
+    "tableHeaders": {
+        "photo": "FOTO",
+        "name": "NOME",
+        "job": "CARGO",
+        "admissionDate": "DATA DE ADMISSÃO",
+        "phone": "TELEFONE"
+    },
+    "languages": {
+        "portuguese": "Português",
+        "english": "Inglês",
+        "spanish": "Espanhol"
+    }
+}

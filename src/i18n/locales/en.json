@@ -1,0 +1,24 @@
+{
+    "appTitle": "Employees",
+    "searchPlaceholder": "Search",
+    "loading": "Loading...",
+    "noEmployeesFound": "No employees found",
+    "altHeaderLogo": "BeTalent logo",
+    "altEmployeeImage": "Employee photo",
+    "altBrazilFlag": "Brazil flag - language selector",
+    "altUSAFlag": "US flag - language selector",
+    "altSpainFlag": "Spain flag - language selector",
+    "altMagnifyingGlassIcon": "Magnifying glass icon",
+    "tableHeaders": {
+        "photo": "PICTURE",
+        "name": "NAME",
+        "job": "JOB",
+        "admissionDate": "ADMISSION DATE",
+        "phone": "PHONE"
+    },
+    "languages": {
+        "portuguese": "Portuguese",
+        "english": "English",
+        "spanish": "Spanish"
+    }
+}

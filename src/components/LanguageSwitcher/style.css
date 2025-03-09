@@ -1,0 +1,19 @@
+.header {
+    justify-content: space-between;
+}
+
+.language-switcher {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.flag-icon {
+    width: 25px;
+    height: auto;
+    cursor: pointer;
+}
+
+.flag-icon.active {
+    border: 3px solid blue;
+}

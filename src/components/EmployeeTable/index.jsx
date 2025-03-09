@@ -1,14 +1,17 @@
-import { formatDate } from '../../utils/formatDate';
-import { formatPhone } from '../../utils/formatPhone';
-import './style.css'
+import { formatDate } from "../../utils/formatDate";
+import { formatPhone } from "../../utils/formatPhone";
+import "./style.css";
+import { useTranslation } from "react-i18next";
 
 const EmployeeTable = ({ employees, loading }) => {
+    const { t } = useTranslation();
+
     if (loading) {
-        return <div>Carregando...</div>;
+        return <div>{t("loading")}</div>;
     }
 
     if (employees.length === 0) {
-        return <div className="no-employees-found" >Nenhum colaborador encontrado</div>;
+        return <div className="no-employees-found">{t("noEmployeesFound")}</div>;
     }
 
     return (
@@ -16,11 +19,11 @@ const EmployeeTable = ({ employees, loading }) => {
             <table className="employee-table">
                 <thead>
                     <tr>
-                        <th>FOTO</th>
-                        <th>NOME</th>
-                        <th>CARGO</th>
-                        <th>DATA DE ADMISSÃO</th>
-                        <th>TELEFONE</th>
+                        <th>{t("tableHeaders.photo")}</th>
+                        <th>{t("tableHeaders.name")}</th>
+                        <th>{t("tableHeaders.job")}</th>
+                        <th>{t("tableHeaders.admissionDate")}</th>
+                        <th>{t("tableHeaders.phone")}</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -29,7 +32,7 @@ const EmployeeTable = ({ employees, loading }) => {
                             <td>
                                 <img
                                     src={employee.image}
-                                    alt="Foto do colaborador"
+                                    alt={t("altEmployeeImage")}
                                     className="employee-image"
                                 />
                             </td>
@@ -45,4 +48,4 @@ const EmployeeTable = ({ employees, loading }) => {
     );
 };
 
-export default EmployeeTable
+export default EmployeeTable;
