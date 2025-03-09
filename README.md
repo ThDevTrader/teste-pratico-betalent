@@ -85,3 +85,26 @@ No seu terminal aparecerá algo assim:
 ![image](https://github.com/user-attachments/assets/7b5038cf-37e6-44d0-a63a-7f489413bcdf)  
 Dê Ctrl + clique ou copie e cole o link destacado em azul para abrir a aplicação no seu browser
 
+## 💥 EXTRA
+Na branch **develop** está incluída a opção de internacionalização. Com switches representados por bandeiras localizadas no header  
+Com as opções português-Br, inglês e espanhol  
+
+![image](https://github.com/user-attachments/assets/7d94c7e7-b68c-4cfd-81fe-9b578013a2f2)  
+
+## 🖥️ Para acessar esta versão
+
+### 1. Altere para a branch develop 
+
+```bash
+git checkout develop
+```
+
+### 2. E veja as alteração no browser  
+Se as alterações não refletirem na tala será necessário atualizar a página do navegador  
+Recomendado fazer **Ctrl + F5**
+
+### 📌 Informações e Funcionalidades
+✅ Uso da biblioteca **i18next** para gerenciar as traduções de forma dinâmica  
+✅ Identifica o idioma do browser e inicia a aplicação seguindo esta configuração  
+✅ É possível trocar entre idiomas nas bandeiras posicionadas à esquerda do header  
+✅ Além das strings visíveis os **alt** da aplicação também são traduzidos, para manter a acessibilidade   
